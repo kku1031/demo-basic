@@ -97,8 +97,8 @@
             
             if (username.trim() !== '' && password.trim() !== '') {
                 alert('로그인 성공!');
-                // calculator.html로 이동
-                window.location.href = 'calculator.html';
+                // calculator.html로 이동 (절대 경로로 매핑)
+                window.location.href = '/calculator.html';
             } else {
                 alert('아이디와 비밀번호를 입력해주세요.');
             }
